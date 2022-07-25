@@ -19,3 +19,17 @@ li {
 .title{
     text-align: center
 }
+
+h2 + p {
+    margin-left: 3%;
+    margin-right: 25%;
+}
+
+h3 + p {
+    margin-left: 3%;
+    margin-right: 25%;
+}
+
+h3 > p {
+    margin-left: 3%;
+}
