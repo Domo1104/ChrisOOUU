@@ -1,12 +1,16 @@
 body{
     font-family: 'Courier New', Courier, monospace;
-    width: 100wv;;
+    width: 100wv;
+    margin: auto;
 }
 ul {
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
+}
+nav>ul>li {
+    cursor: pointer;
 }
 a{
     text-decoration: none;
@@ -42,15 +46,83 @@ nav {
     position: sticky;    
     top: 0;
     z-index: 100;
+    font-size: 2em;
+    padding: auto;
+    color: burlywood;
+    background-color: black;
 }
 
 div.section#projects > p {
-    margin-left: 10%;
+    margin-left: 8%;
     font-size: 3em;
 }
 
 .s2 {
     background-image: url('https://images.unsplash.com/photo-1619925840813-da56acb9e26e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1779&q=80');
     background-repeat: no-repeat;
-    
+    background-position-y: bottom;
+}
+
+ div.s2#hobbies > ul {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+
+ }
+
+ .s1 {
+    background-image: url('https://images.unsplash.com/photo-1519861531473-9200262188bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742&q=80');
+    background-repeat: no-repeat;
+ }
+
+ .s3 {
+    background-image: url('https://images.unsplash.com/photo-1590479773265-7464e5d48118?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-repeat: no-repeat;
+    color: white;
+ }
+
+ .s4 {
+    background-image: url('https://images.unsplash.com/photo-1528747045269-390fe33c19f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvbnRhY3QlMjB1c3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+ }
+
+ div.s1#about > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4)
+ }
+
+ div.s1#about > h2, div.s1#about > h3 {
+    color: white
+ }
+
+ .s4, .s2 > h3 {
+    color: white;
+ }
+
+ .placeholderRed::placeholder{
+    color: red;
+ }
+
+ textarea {
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);;
+  }
+
+  #contactInquiry > input {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  #contactInquiry {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    margin: auto;
+}
+
+#contact > h3 {
+    margin-top: 10%;
 }
