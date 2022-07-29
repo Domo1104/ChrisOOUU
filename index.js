@@ -62,3 +62,4 @@ function sendContact() {
     alert('Opps! Something is missing.')
     }
 }
+
