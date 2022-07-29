@@ -156,15 +156,15 @@ div.section#projects > p {
   }
 
  div#logos {
-    position: relative;
+    /* position: relative; */
     display: flex;
-    z-index: 2;
+    /* z-index: 2; */
     justify-content: center;
   }
 
   div#logos a {
-    position: relative;
-    list-style: none;
+    /* position: relative;
+    list-style: none; */
     margin: 10px;
   }
 
@@ -178,22 +178,21 @@ div.section#projects > p {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    font-size: 2em;
-    color: white;
+    /* font-size: 2em;
     border: 1px solid rgba(255, 255, 255, 0.4);
     border-right: 1px solid rgba(255, 255, 255, 0.2);
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 5px 45px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px); */
     transition: 0.5s;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
 div#logos a img:hover {
     transform: translateY(-20px);
 }
 
-div#logos a img::before {
+/* div#logos a img::before {
     content: '';
     position: absolute;
     top: 0;
@@ -203,11 +202,11 @@ div#logos a img::before {
     background: rgba(255, 255, 255, 0.5);
     transform: skewX(45deg) translateX(150px);
     transition: 0.5s;
-}
+} */
 
-div#logos a img:hover::before {
+/* div#logos a img:hover::before {
     transform: skewX(45deg) translateX(-150px);
-}
+} */
 
 
   span {
