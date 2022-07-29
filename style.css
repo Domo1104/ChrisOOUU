@@ -48,6 +48,7 @@ nav {
     font-size: 2em;
     padding: auto;
     background: black;
+    margin-top: -8.3%;
 }
 
 div.section#projects > p {
@@ -202,9 +203,9 @@ div#logos a img:hover {
     background: rgba(255, 255, 255, 0.5);
     transform: skewX(45deg) translateX(150px);
     transition: 0.5s;
-} */
+}
 
-/* div#logos a img:hover::before {
+div#logos a img:hover::before {
     transform: skewX(45deg) translateX(-150px);
 } */
 
@@ -212,6 +213,3 @@ div#logos a img:hover {
   span {
     font-size: 1.9em;
   }
-
-
-
