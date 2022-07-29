@@ -10,11 +10,10 @@
 <body>
     <nav>
         <ul>
-            <li onclick="navScroll('about')">about</li>
-            <li onclick="navScroll('hobbies')">hobbies</li>
-            <li onclick="navScroll('projects')">projects</li>
-            <li onclick="navScroll('contact')">contact me</li>
-        </ul>
+            <button onclick="navScroll('about')" class="btn btn-ripple">about</button>
+            <button onclick="navScroll('hobbies')"class="btn btn-ripple">hobbies</button>
+            <button onclick="navScroll('projects')"class="btn btn-ripple">projects</button>
+            <button onclick="navScroll('contact')"class="btn btn-ripple">contact me</button>
     </nav>
         <div class="section s1" id="about">
             <h2>Introduction</h2>
@@ -96,6 +95,23 @@
                     <br><br>
                     <button onclick="sendContact();">Send contact</button>
                     <br><br>
+                </div>
+                <div id="logos">
+                    <a href="https://www.Facebook.com">
+                        <img alt="Facebook" src="https://cdn-icons-png.flaticon.com/512/747/747374.png"
+                        width="80" height="70">
+                    <a href="https://www.YouTube.com">
+                        <img alt="YouTube" src="https://cdn-icons-png.flaticon.com/512/1384/1384086.png"
+                        width="80" height="70">
+                    <a href="https://www.Instagram.com">
+                        <img alt="Instagram" src="https://cdn-icons-png.flaticon.com/512/1384/1384031.png"
+                        width="80" height="70">
+                    <a href="https://www.Twitter.com">
+                        <img alt="Twitter" src="https://cdn-icons-png.flaticon.com/512/2111/2111819.png"
+                        width="80" height="70">
+                    <a href="https://www.LinkedIn.com">
+                        <img alt="LinkedIn" src="https://cdn-icons-png.flaticon.com/512/1384/1384088.png"
+                            width="80" height="70">
                 </div>
         </div>
     <script src="index.js"></script>
