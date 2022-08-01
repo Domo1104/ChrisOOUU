@@ -55,10 +55,8 @@ var fields = {
 function sendContact() {
     if (isValid()) {
         let user = new Inquiry(firstName.value, lastName.value, email.value, question.value)
-        console.log(user)
     alert(`Thank you for your inquiry, ${user.firstName}, but currently the email function is down.`)
     } else {
-        console.log('hello')
     alert('Opps! Something is missing.')
     }
 }

@@ -22,7 +22,6 @@ li {
 h2 + p, h3 + p {
     margin-left: 3%;
     margin-right: 25%;
-
 }
 
 .section {
@@ -239,5 +238,4 @@ button:hover {
     transform: skew(-10deg);
     transition: .4s;
     }
-
 
