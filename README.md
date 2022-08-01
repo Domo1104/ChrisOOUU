@@ -12,9 +12,9 @@ NSX URL: https://unsplash.com/photos/KWUMSIHqE10
 Construction URL: https://unsplash.com/photos/NoOrDKxUfzo
 Contact URL: https://unsplash.com/photos/5Ne6mMQtIdo
 
-Took inspiration from many great pages.
-1. Inquiry - https://www.codebrainer.com/blog/contact-form-in-javascript
-2. Online Tutorials YouTube channel for a lot of ideas I implemented.
+Took inspiration from many great pages or sites.
+1. Inquiry - https://www.codebrainer.com/blog/contact-form-in-javascript.
+2. Used Online Tutorials YouTube channel for a lot of ideas I implemented.
 
 AUTHOR
 Christopher Ou
